@@ -26,25 +26,19 @@ export default function ClassesPage() {
       <section className="bg-white rounded-2xl shadow p-6">
         <h2 className="text-2xl font-semibold mb-3">FAQs</h2>
         <ul className="space-y-2 text-gray-800">
-          <li><span className="font-medium">Online or offline?</span> Online via Google Meet (offline workshops when available).</li>
-          <li><span className="font-medium">Study materials?</span> PDF notes + practice sheets.</li>
+          <li><span className="font-medium">Online or offline?</span> Online via Google Meet.</li>
+          <li><span className="font-medium">Study materials?</span> PDF notes + worksheets.</li>
           <li><span className="font-medium">Trial class?</span> 15-minute free trial.</li>
-          <li><span className="font-medium">JLPT prep?</span> Yes, focused on N5–N4, mock tests included.</li>
-          <li><span className="font-medium">Fee structure?</span> ₹18,000 (₹9,000 + ₹9,000 split).</li>
+          <li><span className="font-medium">JLPT prep?</span> Yes, focused on N5–N4.</li>
         </ul>
       </section>
 
-      <section className="grid md:grid-cols-2 gap-6">
-        <div className="bg-white rounded-2xl shadow p-6">
-          <h2 className="text-2xl font-semibold">Contact</h2>
-          <p className="mt-2 text-gray-700">
-            WhatsApp: <a className="underline" href="https://wa.me/91XXXXXXXXXX">+91 XXXXX XXXXX</a><br/>
-            Email: <a className="underline" href="mailto:snigdha@example.com">snigdha@example.com</a>
-          </p>
-        </div>
-        <div className="bg-white rounded-2xl shadow p-6">
-          <p className="text-gray-600">Simple form will come later. For now, WhatsApp or email is best.</p>
-        </div>
+      <section className="bg-white rounded-2xl shadow p-6">
+        <h2 className="text-2xl font-semibold">Contact</h2>
+        <p className="mt-2 text-gray-700">
+          WhatsApp: <a className="underline" href="https://wa.me/91XXXXXXXXXX">+91-9874727893</a><br/>
+          Email: <a className="underline" href="mailto:snigdha@example.com">snigdha@example.com</a>
+        </p>
       </section>
     </main>
   );
