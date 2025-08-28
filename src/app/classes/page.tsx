@@ -1,12 +1,12 @@
 export default function ClassesPage() {
   return (
     <main className="max-w-6xl mx-auto p-4 md:p-6 space-y-10">
-      <h1 className="text-3xl font-bold text-gray-900">Classes with Snigdha Bhadra</h1>
+      <h1 className="text-3xl font-bold text-gray-900">Japanese Classes by Snigdha Bhadra</h1>
       <p className="text-gray-700">
-        Teacher and Founder of the Institute of Japanese Language and Cultures. 
-        Dedicated to guiding students from beginner level all the way up to advanced JLPT N2.
+        Snigdha Bhadra, Founder and Lead Instructor at the Institute of Japanese Language and Cultures, 
+        is dedicated to helping students achieve success from absolute beginner to advanced JLPT N2 level.
       </p>
-""
+
       {/* Class Levels */}
       <section>
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">JLPT Levels Offered</h2>
@@ -27,11 +27,11 @@ export default function ClassesPage() {
 
       {/* Why Study Here */}
       <section className="bg-white rounded-2xl shadow p-6">
-        <h2 className="text-2xl font-semibold mb-4">Why Learn With Us?</h2>
+        <h2 className="text-2xl font-semibold mb-4">Why Learn Here?</h2>
         <ul className="list-disc list-inside text-gray-800 space-y-2">
-          <li>Learn directly from an experienced teacher </li>
-          <li>Personalized attention with focus on both speaking and exam preparation.</li>
-          <li>Structured study path from beginner N5 all the way up to N2.</li>
+          <li>Guidance from an experienced teacher and founder of the institute.</li>
+          <li>Focus on both exam preparation and practical communication.</li>
+          <li>Structured learning path from N5 all the way up to N2.</li>
           <li>Interactive lessons with real-life examples and cultural insights.</li>
         </ul>
       </section>
@@ -40,7 +40,7 @@ export default function ClassesPage() {
       <section className="bg-gradient-to-r from-pink-100 to-red-100 rounded-2xl shadow p-6 text-center">
         <h2 className="text-2xl font-bold text-gray-900">Ready to Start Your Journey?</h2>
         <p className="text-gray-700 mt-2">
-          Take the first step towards mastering Japanese with Snigdha Bhadra.....
+          Take the first step towards mastering Japanese with Snigdha Bhadra and join a growing community of learners.
         </p>
         <div className="mt-4 flex justify-center gap-4">
           <a
@@ -53,7 +53,7 @@ export default function ClassesPage() {
             href="/gallery"
             className="px-4 py-2 rounded-xl border border-red-400 text-red-600 font-medium"
           >
-            View Gallery 
+            View Gallery
           </a>
         </div>
       </section>
