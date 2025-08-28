@@ -12,7 +12,7 @@ export default function Page() {
           Learn Japanese with <span className="text-black-500">Snigdha Bhadra</span>
         </h1>
         <p className="mt-3 text-gray-700">
-          Teacher at Secretary of Institute of Japanese Language and Cultures. JLPT-focused, beginner-friendly classes.
+          Founder and associate teacher of Institute of Japanese Language and Cultures. JLPT-focused, beginner-friendly classes.
         </p>
         <div className="mt-5 flex gap-3 flex-wrap">
           <a

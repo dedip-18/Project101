@@ -6,7 +6,7 @@ export default function ClassesPage() {
         Teacher and Founder of the Institute of Japanese Language and Cultures. 
         Dedicated to guiding students from beginner level all the way up to advanced JLPT N2.
       </p>
-
+""
       {/* Class Levels */}
       <section>
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">JLPT Levels Offered</h2>
@@ -29,7 +29,7 @@ export default function ClassesPage() {
       <section className="bg-white rounded-2xl shadow p-6">
         <h2 className="text-2xl font-semibold mb-4">Why Learn With Us?</h2>
         <ul className="list-disc list-inside text-gray-800 space-y-2">
-          <li>Learn directly from an experienced teacher who is also the founder of the institute.</li>
+          <li>Learn directly from an experienced teacher </li>
           <li>Personalized attention with focus on both speaking and exam preparation.</li>
           <li>Structured study path from beginner N5 all the way up to N2.</li>
           <li>Interactive lessons with real-life examples and cultural insights.</li>
