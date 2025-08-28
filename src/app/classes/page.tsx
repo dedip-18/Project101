@@ -40,7 +40,7 @@ export default function ClassesPage() {
       <section className="bg-gradient-to-r from-pink-100 to-red-100 rounded-2xl shadow p-6 text-center">
         <h2 className="text-2xl font-bold text-gray-900">Ready to Start Your Journey?</h2>
         <p className="text-gray-700 mt-2">
-          Take the first step towards mastering Japanese with Snigdha Bhadra.
+          Take the first step towards mastering Japanese with Snigdha Bhadra.....
         </p>
         <div className="mt-4 flex justify-center gap-4">
           <a
@@ -53,7 +53,7 @@ export default function ClassesPage() {
             href="/gallery"
             className="px-4 py-2 rounded-xl border border-red-400 text-red-600 font-medium"
           >
-            View Gallery
+            View Gallery 
           </a>
         </div>
       </section>
