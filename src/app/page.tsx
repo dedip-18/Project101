@@ -7,48 +7,56 @@ export default function Page() {
           "url('https://res.cloudinary.com/dbarjsfom/image/upload/v1756220334/484333470_3021445304687077_1939634484774059232_n_jtqc4i.jpg')",
       }}
     >
-      <section className="bg-white/80 backdrop-blur-sm rounded-2xl shadow p-6 md:p-8 max-w-6xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">
-          Learn Japanese with <span className="text-black-500">Snigdha Bhadra</span>
+      {/* Hero Section */}
+      <section className="bg-white/85 backdrop-blur-sm rounded-2xl shadow-lg p-8 max-w-3xl mx-auto text-center">
+        <h1 className="text-4xl font-bold text-gray-900">
+          Snigdha Bhadra
         </h1>
-        <p className="mt-3 text-gray-700">
-          Founder and associate teacher of Institute of Japanese Language and Cultures. JLPT-focused, beginner-friendly classes.
+        <p className="text-lg text-gray-700 mt-2">
+          Founder & Instructor, Institute of Japanese Language and Cultures
         </p>
-        <div className="mt-5 flex gap-3 flex-wrap">
+        <p className="mt-3 text-gray-600 italic">
+          Guiding learners from Hiragana to JLPT N2 success
+        </p>
+
+        {/* Buttons */}
+        <div className="mt-6 flex flex-wrap gap-3 justify-center">
           <a
             href="/classes"
-            className="px-4 py-2 rounded-xl bg-gray-900 text-white"
+            className="px-5 py-2 rounded-xl bg-gray-900 text-white font-medium shadow"
           >
             View Classes
           </a>
           <a
             href="/contact"
-            className="px-4 py-2 rounded-xl border border-gray-300"
+            className="px-5 py-2 rounded-xl border border-gray-300 font-medium shadow"
           >
             Contact
           </a>
           <a
             href="/gallery"
-            className="px-4 py-2 rounded-xl border border-gray-300"
+            className="px-5 py-2 rounded-xl border border-gray-300 font-medium shadow"
           >
             Gallery
           </a>
         </div>
       </section>
 
-      <section className="mt-8 grid gap-4 md:grid-cols-3 max-w-6xl mx-auto">
-        {["JLPT N5–N4 prep", "Speaking practice", "Notes & feedback"].map(
-          (t) => (
-            <div
-              key={t}
-              className="bg-white/80 backdrop-blur-sm rounded-2xl shadow p-5 text-gray-800"
-            >
-              {t}
-            </div>
-          )
-        )}
+      {/* Highlights Section */}
+      <section className="mt-10 grid gap-4 md:grid-cols-3 max-w-6xl mx-auto">
+        {[
+          "Learn step by step — from N5 to N2",
+          "Focus on both speaking & exams",
+          "Interactive lessons with cultural insights"
+        ].map((t) => (
+          <div
+            key={t}
+            className="bg-white/85 backdrop-blur-sm rounded-2xl shadow p-5 text-gray-800 text-center"
+          >
+            {t}
+          </div>
+        ))}
       </section>
     </main>
   );
 }
-
