@@ -4,7 +4,7 @@ export default function Page() {
       className="min-h-screen bg-cover bg-center p-4 md:p-6"
       style={{
         backgroundImage:
-          "url('https://res.cloudinary.com/dbarjsfom/image/upload/v1756220334/484333470_3021445304687077_1939634484774059232_n_jtqc4i.jpg')",
+          "url('https://res.cloudinary.com/dbarjsfom/image/upload/v1757728362/3f60758d-8df1-4a94-beb6-cbe8cf7a125b_v6ljej.jpg')",
       }}
     >
       {/* Hero Section */}
@@ -39,6 +39,13 @@ export default function Page() {
           >
             Gallery
           </a>
+
+          <a
+  href="/form"
+  className="px-4 py-2 rounded-xl bg-blue-600 text-white font-medium shadow"
+>
+  Register Now
+</a>
         </div>
       </section>
 
